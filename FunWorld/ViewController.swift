@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var text:String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func showAlert(_ sender: Any) {
+        let alertController = UIAlertController(title: "Fun World!", message:
+            "Hello, there...!", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
 
