@@ -17,6 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // First, we’re initializing an instance of our ContactsTableViewController class, and provide it the name of our XIB file. You also set its title to "Contacts", which will show nicely in the UI’s navigation bar.
+        let usernames = ContactsTableViewController(nibName: "ContactsTableViewController", bundle: nil)
+        usernames.title = "Contacts"
+        
+        // Then, you initialize an instance of UINavigationController and provide the table view controller as its root view controller. This effectively embeds the table view controller in a navigation controller.
+        let navigationController = UINavigationController(rootViewController: usernames)
+        
+        // Finally, you create a new UIWindow with the size of the iPhone screen, assign the navigation controller as it’s root view controller, and call makeKeyAndVisible(), which makes it the front window of our app.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB09F172254965E005E7454 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB09F152254965E005E7454 /* ContactsTableViewController.swift */; };
+		1BB09F182254965F005E7454 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB09F162254965E005E7454 /* ContactsTableViewController.xib */; };
 		1BB1F869224DE3F20003D304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1F868224DE3F20003D304 /* AppDelegate.swift */; };
 		1BB1F86B224DE3F20003D304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1F86A224DE3F20003D304 /* ViewController.swift */; };
 		1BB1F86E224DE3F20003D304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB1F86C224DE3F20003D304 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BB09F152254965E005E7454 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		1BB09F162254965E005E7454 /* ContactsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTableViewController.xib; sourceTree = "<group>"; };
 		1BB1F865224DE3F20003D304 /* FunWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB1F868224DE3F20003D304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BB1F86A224DE3F20003D304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				1BB1F874224DE3F30003D304 /* LaunchScreen.storyboard */,
 				1BB1F877224DE3F30003D304 /* Info.plist */,
 				1BB1F86F224DE3F20003D304 /* FunWorld.xcdatamodeld */,
+				1BB09F152254965E005E7454 /* ContactsTableViewController.swift */,
+				1BB09F162254965E005E7454 /* ContactsTableViewController.xib */,
 			);
 			path = FunWorld;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				1BB1F876224DE3F30003D304 /* LaunchScreen.storyboard in Resources */,
 				1BB1F873224DE3F30003D304 /* Assets.xcassets in Resources */,
+				1BB09F182254965F005E7454 /* ContactsTableViewController.xib in Resources */,
 				1BB1F86E224DE3F20003D304 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				1BB1F86B224DE3F20003D304 /* ViewController.swift in Sources */,
 				1BB1F869224DE3F20003D304 /* AppDelegate.swift in Sources */,
+				1BB09F172254965E005E7454 /* ContactsTableViewController.swift in Sources */,
 				1BB1F871224DE3F20003D304 /* FunWorld.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
