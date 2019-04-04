@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FunWorld/ViewController.swift"
@@ -19,14 +19,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FunWorld.ViewController.__deallocating_deinit"
                   moduleName = "FunWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/prachi.thakkar/Documents/FunWorld/FunWorld/ViewController.swift"
-                  timestampString = "575978068.27449"
+                  timestampString = "576056807.589028"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FunWorld.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FunWorld.ViewController"
                   moduleName = "FunWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/prachi.thakkar/Documents/FunWorld/FunWorld/ViewController.swift"
-                  timestampString = "575978068.276296"
+                  timestampString = "576056807.592273"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FunWorld.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FunWorld.ViewController"
                   moduleName = "FunWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/prachi.thakkar/Documents/FunWorld/FunWorld/ViewController.swift"
-                  timestampString = "575978068.2780941"
+                  timestampString = "576056807.595449"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -64,14 +64,14 @@
                   offsetFromSymbolStart = "70">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FunWorld.ViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FunWorld.ViewController&gt;"
                   moduleName = "FunWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/prachi.thakkar/Documents/FunWorld/FunWorld/ViewController.swift"
-                  timestampString = "575978068.2801059"
+                  timestampString = "576056807.598683"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -79,14 +79,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FunWorld.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FunWorld.ViewController&gt;"
                   moduleName = "FunWorld"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/prachi.thakkar/Documents/FunWorld/FunWorld/ViewController.swift"
-                  timestampString = "575978068.281808"
+                  timestampString = "576056807.602034"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -99,7 +99,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FunWorld/ViewController.swift"
